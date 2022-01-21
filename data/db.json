@@ -1,0 +1,62 @@
+{
+  "roles": [
+    {
+      "id": 1,
+      "name": "CEO"
+    },
+    {
+      "id": 2,
+      "name": "Manager"
+    },
+    {
+      "id": 3,
+      "name": "Account Manager"
+    },
+    {
+      "id": 4,
+      "name": "Owner"
+    },
+    {
+      "id": 5,
+      "name": "Operations"
+    },
+    {
+      "id": 6,
+      "name": "Board Member"
+    }
+  ],
+  "leaders": [
+    {
+      "id": 1642773884331,
+      "firstName": "Martin",
+      "lastName": "Mc'Gregor",
+      "organization": "Modell's",
+      "email": "martinmc@modells.com",
+      "phone": "+1 (818) 235-1254",
+      "roleId": 1,
+      "role": "CEO",
+      "selected": true
+    },
+    {
+      "id": 1642774192382,
+      "firstName": "Linda",
+      "lastName": "Mandelsson",
+      "organization": "Nike",
+      "email": "linda_md@nike.com",
+      "phone": "+1 (818) 465-2200",
+      "roleId": 5,
+      "role": "Operations"
+    },
+    {
+      "id": 1642774252745,
+      "firstName": "Bill",
+      "lastName": "O'Brain",
+      "organization": "Adidas",
+      "email": "BillO@adidas.com",
+      "phone": "+1 (818) 465-2200",
+      "roleId": 3,
+      "role": "Account Manager",
+      "selected": true
+    }
+  ]
+}

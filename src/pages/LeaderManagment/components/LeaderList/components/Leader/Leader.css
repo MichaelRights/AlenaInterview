@@ -1,0 +1,24 @@
+.card-container {
+  padding: 20px 0;
+  position: relative;
+  border: 1px solid black;
+  margin-bottom: 10px;
+  border-radius: 20px;
+}
+.card-selected {
+  border: 3px solid green;
+}
+
+.card-content > p {
+  text-align: center;
+}
+
+.card-close {
+  position: absolute;
+  color: red;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 24px;
+  top: 0;
+  right: 10px;
+}

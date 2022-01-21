@@ -1,0 +1,28 @@
+.select {
+  cursor: pointer;
+  position: relative;
+  background-color: #6c777d;
+  padding: 10px;
+  border-radius: 10px;
+  color: #fff;
+}
+.select::after {
+  content: "▼";
+  position: absolute;
+  font-size: 12px;
+  right: 10px;
+}
+.option-container {
+  margin-top: 2px;
+  border-radius: 5px;
+  border: 0.5px solid black;
+}
+.option {
+  padding: 12px;
+  cursor: pointer;
+}
+.option-selected,
+.option:hover {
+  background-color: #c9cfd3;
+  border-radius: 5px;
+}
